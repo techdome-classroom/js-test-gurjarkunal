@@ -6,7 +6,7 @@ var isValid = function(s) {
     if (s == null) {
         return true;
     }
-    let ch = x.split('');
+    let ch = s.split('');
     let st = [];
     for (let i = 0; i < ch.length; i++) {
         if (ch[i] == '(' || ch[i] == '{' || ch[i] == '[') {
